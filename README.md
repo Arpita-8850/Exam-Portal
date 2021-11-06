@@ -62,16 +62,16 @@
 4. Open Your browser and put the url: "http://localhost//exam-portal/login.php#"
 
 Admin Login Details:\
-Login Id: tony@gmail.com    
-Password: tony
+- Login Id: tony@gmail.com    
+- Password: tony
 
-Student Login Details:
-Login Id: arpita@gmail.com    
-Password: Arpita1
+Student Login Details:\
+- Login Id: arpita@gmail.com    
+- Password: Arpita1
 
 
 ## Authors:
- It was a Degree 3rd year project made by-\
+ It was a 3rd year degree project made by-\
  **Arpita Kar**\
  **Sadiya Shaikh**\
  **Sparsh Bindroo**
