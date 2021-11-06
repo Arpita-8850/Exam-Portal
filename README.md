@@ -1,4 +1,6 @@
 # EXAM PORTAL
+![alt text](https://github.com/Arpita-8850/Exam-Portal/blob/master/photo.png)
+
 - **EXAM PORTAL** is a web based platform for organizing online examinations. 
 - The portal can perform following tasks:
 1.	Generate time table for exams.
@@ -11,7 +13,6 @@
 8.	Remove students from exams.
 9.	Login system for both teachers and students.
 
-![alt text](https://github.com/Arpita-8850/Exam-Portal/blob/master/photo.png)
 
 ## Need:
 - Now-a-days, almost all organizations are conducting their objective exams by online examination system, it saves students time in exams. 
@@ -49,6 +50,8 @@
 2. MySQL
 3. PHPmyAdmin
 
+![alt text](https://github.com/Arpita-8850/Exam-Portal/blob/master/photo2.png)
+
 ## Installation Steps:
 1. Download the zip file and unzip it.
 2. Create a folder named 'exam-portal' on your local server and paste all the codes from the zip file.
@@ -58,7 +61,7 @@
 - Import the file named 'exam.sql' to the database from the downloaded folder.
 4. Open Your browser and put the url: "http://localhost//exam-portal/login.php#"
 
-Admin Login Details:
+Admin Login Details:\
 Login Id: tony@gmail.com    
 Password: tony
 
@@ -66,12 +69,11 @@ Student Login Details:
 Login Id: arpita@gmail.com    
 Password: Arpita1
 
-![alt text](https://github.com/Arpita-8850/Exam-Portal/blob/master/photo2.png)
 
 ## Authors:
- It was a Degree 3rd year project made by-
+ It was a Degree 3rd year project made by-\
  **Arpita Kar**\
  **Sadiya Shaikh**\
- **Sparsh Bindroo**\
+ **Sparsh Bindroo**
 
 ![alt text](https://github.com/Arpita-8850/Exam-Portal/blob/master/photo3.png)
