@@ -61,11 +61,11 @@
 - Import the file named 'exam.sql' to the database from the downloaded folder.
 4. Open Your browser and put the url: "http://localhost//exam-portal/login.php#"
 
-Admin Login Details:\
+Admin Login Details:
 - Login Id: tony@gmail.com    
 - Password: tony
 
-Student Login Details:\
+Student Login Details:
 - Login Id: arpita@gmail.com    
 - Password: Arpita1
 
