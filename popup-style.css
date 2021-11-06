@@ -1,0 +1,124 @@
+
+.Frame{
+	height:100vh;
+	width:100%;
+}
+
+.Frame#blur.active{
+	filter:blur(40px);
+	pointer-events:none;
+	user-select:none;
+}
+
+ #popup{
+	 position:fixed;
+	 top:30%;
+	 left:50%;
+	 transform:translate(-50%,-50%);
+	 width:450px;
+	 height:550px;
+	 padding:20px;
+	 box-shadow:0 5px 30px rgba(0, 0, 0, 0.486);
+	 background: #F7F9FD;
+	 visibility:hidden;
+	 transition:0.5s;
+	 border-radius: 10px;
+	 
+ }
+
+ #popup.active{
+	 visibility:visible;
+	 opacity:1;
+	 transition:0.5s;
+	 top:50%;	 
+ }
+
+.container{
+	position:absolute;
+	top:54%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	background: #F7F9FD;
+	width:400px;
+	padding:30px;
+	font-family: 'Spartan', sans-serif;
+}
+
+#Login {
+    font-family: 'Spartan', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 26px;
+    color: #2862B9;
+	text-align: center;
+}
+
+p {
+    font-family: 'Spartan', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 26px;
+    color: #767272;
+}
+
+.container form .data{
+	height:45px;
+	width:400px;
+	margin-top:0px;
+	padding-bottom: 50px;
+}
+
+form .data label{
+	font-size:20px;
+}
+
+form .data input{
+	height:100%;
+	width:100%;
+	padding-left:10px;
+	font-size:17px;
+	border:1px solid lightgrey;
+}
+
+input[type=email], input[type=password] {
+    width: 385px;
+    height: 47px;
+    background: #eeebeb;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: 0px;
+    font-family: 'Spartan', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+input[type=submit] {
+    width: 350px;
+    height: 57px;
+    background: #2765C1;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: 0px;
+	border-radius: 50px;
+    font-family: 'Spartan', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+    color: #FFFFFF;
+	cursor:pointer;
+}
+
+input[type=submit]:hover{
+	background-color: #1d7a22; 
+}
+
+#close-bt {
+	height:50px; 
+	margin-top: -15px;
+	float: right;  
+}
+
+#close-bt:hover {opacity: 0.7; }

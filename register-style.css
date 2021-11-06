@@ -1,0 +1,161 @@
+body {
+    position: relative;
+    background: #FFFFFF;
+    
+    }
+    
+.ExamPortal { 
+    position: absolute;
+    width: 274px;
+    height: 45px;
+    left: 102px;
+    top: 10px;
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 53px;
+    line-height: 56px;
+    color: #2765C1;
+}
+
+       
+.Frame1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: absolute;
+    left: 414px;
+    top: 42px;
+}
+    
+    
+.Frame1 .faculty {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 38px;
+    color: black;
+    text-decoration: none;
+    flex: none;
+    margin-top: -6px;
+    background-color: white;
+    padding: 0px 15px 0px 15px;
+    text-align: center;
+    border-radius: 20px;
+    transition: 0.4s all;
+    margin-left: 40px;
+    margin-right: 30px;
+}
+    
+.Frame1 .faculty:hover {
+
+    line-height: 38px;
+    color: white;
+    text-decoration: none;
+    flex: none;
+    margin-top: -4px;
+    background-color: #2765C1;
+    text-align: center;
+    border-radius: 20px;
+}
+    
+.Frame1 .student  {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 38px;
+    color: white;
+    text-decoration: none;
+    flex: none;
+    margin-top: -6px;
+    background-color: #2765C1;
+    padding: 0px 15px 0px 15px;
+    text-align: center;
+    border-radius: 20px;
+    transition: 0.4s all;
+}
+
+.Frame1 .student:hover{
+    background-color: white;
+    color: black;
+}
+
+.img {
+    margin-left: 170px;
+    margin-top: 130px;
+    }    
+    
+.Rectangle2 {
+    position: absolute;
+    width: 720px;
+    height: 800px;
+    left: 550px;
+    top: 110px;
+    background: #F7F9FD;
+    box-shadow: 15px 15px #2862B9;
+    border: 1px solid #dddfe2 ;
+}  
+
+a {
+    font-family: Spartan;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 26px;
+    color: #2765C1;
+    text-decoration: none;
+}
+
+
+
+.Login {
+    font-family: 'Spartan', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 26px;
+    color: #2862B9;
+}
+
+
+input[type=text], input[type=email], input[type=password],input[type=number], input[type=date], select {
+    width: 385px;
+    height: 47px;
+    background: #eeebeb;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: 0px;
+    font-family: 'Spartan', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+input[type=submit], input[type=reset] {
+    width: 300px;
+    height: 57px;
+    background: #2765C1;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: 0px;
+    font-family: 'Spartan', sans-serif;
+    /* font-style: normal; */
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+input[type=submit]:hover,input[type=reset]:hover {
+    background-color: #1d7a22;
+    }
+
+hr {
+    border: 1px dashed rgba(0, 0, 0, 0.5);
+    width: 75%;
+}
+
+form i {
+    margin-left: -30px;
+    cursor: pointer;
+  }

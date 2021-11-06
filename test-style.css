@@ -1,0 +1,34 @@
+table {
+    border-radius: 10px;
+    background: #F7F9FD;
+    box-shadow: 5px 5px 10px rgb(194, 194, 194);
+    border: 1px solid #dddfe2 ;
+    padding: 50px;
+}
+
+
+td:nth-child(odd) {
+    padding-right: 40px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 20px;
+    color: #000000;
+    font-family: Source Sans Pro;
+
+}
+
+input[type="text"], input[type="date"], input[type="number"],input[type="time"], select {
+    width: 500px;
+    height:40px;
+    background: #E5E5E5;
+    border: 1px solid #929292;
+    font-size:19px;
+    box-sizing: border-box;
+}
+
+#next {
+    width: 140px;
+    height: 50px;
+    letter-spacing: 2px;
+}

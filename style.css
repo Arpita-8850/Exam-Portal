@@ -1,0 +1,183 @@
+body {
+    position: relative;
+    background: #FFFFFF;
+    }
+    
+.ExamPortal { 
+    position: absolute;
+    width: 274px;
+    height: 45px;
+    left: 102px;
+    top: 10px;
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 53px;
+    line-height: 56px;
+    color: #2765C1;
+}
+        
+.Frame1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: absolute;
+    left: 414px;
+    top: 42px;
+}
+    
+    
+.Frame1 .passive {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 38px;
+    color: black;
+    text-decoration: none;
+    flex: none;
+    margin-top: -6px;
+    background-color: white;
+    padding: 0px 20px 0px 20px;
+    text-align: center;
+    border-radius: 20px;
+    transition: 0.4s all;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+    
+.Frame1 .passive:hover {
+
+    line-height: 38px;
+    color: white;
+    text-decoration: none;
+    flex: none;
+    margin-top: -4px;
+    background-color: #2765C1;
+    text-align: center;
+    border-radius: 20px;
+}
+    
+
+.Frame1 .active  {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 38px;
+    color: white;
+    text-decoration: none;
+    flex: none;
+    margin-top: -6px;
+    background-color: #2765C1;
+    padding: 0px 20px 0px 20px;
+    text-align: center;
+    border-radius: 20px;
+    margin-left: 10px;
+    transition: 0.4s all;
+}
+
+.Frame1 .active:hover{
+    background-color: white;
+    color: black;
+}
+
+.Frame1 .name{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 38px;
+    color: black;
+    text-decoration: none;
+    flex: none;
+    margin-top: -6px;
+    margin-left: 10px;
+    margin-right: 10px;
+    transition: 0.4s all;
+}
+
+
+.Frame1 .logout  {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 38px;
+    color: white;
+    text-decoration: none;
+    flex: none;
+    margin-top: -6px;
+    background-color: #2765C1;
+    padding: 0px 15px 0px 15px;
+    text-align: center;
+    border-radius: 12px;
+    transition: 0.4s all;
+    margin-left: 50px;
+}
+
+input[type=submit] {
+    background-color: #1d7a22;
+    width: 100px;
+    height: 50px;
+    border: 1px solid white;
+    font-family: 'Spartan', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+    color: #FFFFFF;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #21a328;
+}
+
+#report {
+    background-color: rgb(187, 17, 17);
+}
+
+#report:hover {
+    background-color: #1d7a22;
+}
+
+#icon {
+    height: 45px;
+    width: 45px;
+    transition: transform .2s;
+}
+
+#icon:hover {
+    transform: scale(1.2); 
+}
+
+#test {
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 45px;
+    color: black;
+    text-decoration: none;
+    flex: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+input[type=button] {
+    background-color: #026ead;
+    width: 150px;
+    height: 50px;
+    border: 1px solid white;
+    font-family: 'Spartan', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+    color: #FFFFFF;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+input[type=button]:hover {
+    background-color: #1d7a22;
+}
